@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-// Test ID: IIDSAT
+
 
 import { useFetcher, useLoaderData, useParams } from "react-router-dom";
 // import { getOrder } from "../../services/apiRestaurant";
@@ -58,7 +58,7 @@ function Order() {
     },
     [fetcher]
   );
-  console.log(order)
+ 
   const {
     id,
     status,
